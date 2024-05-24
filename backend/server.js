@@ -18,6 +18,9 @@ connectDB();
 
 //api endpoints
 app.use("/api/food" , foodRouter)  // It tells the Express application to use the foodRouter for any requests that start with the path /api/food
+
+app.use("/images" , express.static('uploads'))
+
 app.get("/" , (req , res)=>{
    res.send("API Working")
 })
