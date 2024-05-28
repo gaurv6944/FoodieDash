@@ -16,7 +16,7 @@
 <li>check the user availibilty in DB with the help of findOne function</li>
 <li>if user found , then match the password with help of compare function</li>
 <li>if password match , create a token</li>
-<li>then a success res and a token</li>
+<li>then send a success res and a token</li>
 
 
   
