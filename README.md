@@ -9,3 +9,15 @@
 <li>send a success res and token</li>
   
 </ul>
+<h2> Login
+</h2>
+<ul>
+<li>fetch the data from req.body</li>
+<li>check the user availibilty in DB with the help of findOne function</li>
+<li>if user found , then match the password with help of compare function</li>
+<li>if password match , then a success res and a token</li>
+<li></li>
+
+
+  
+</ul>
